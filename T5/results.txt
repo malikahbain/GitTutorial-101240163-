@@ -1,0 +1,125 @@
+
+***************************************************************************
+* Compilation
+***************************************************************************
+Executing: make clean
+Executing: make test
+Running const test (2 marks)
+Executing: ./test
+Running:  ['./test']
+Enter one of the following options: 
+0. const test
+1. TAArray test (adding and removing in order)
+
+
+Test passed
+Running TAArray test (8 marks)
+Executing: ./test
+Running:  ['./test']
+Enter one of the following options: 
+0. const test
+1. TAArray test (adding and removing in order)
+
+Testing that first 5 TextAreas were added in order using add(TextArea) function
+
+TextArea id:   id1
+Preferred location: 1, 2
+Size:     3, 4
+Text:   content1
+TextArea id:   id2
+Preferred location: 5, 6
+Size:     7, 8
+Text:   content2
+TextArea id:   id3
+Preferred location: 9, 10
+Size:     11, 12
+Text:   content3
+TextArea id:   id4
+Preferred location: 1, 1
+Size:     1, 1
+Text:   content4
+TextArea id:   id5
+Preferred location: 2, 2
+Size:     2, 2
+Text:   content5
+
+Adding textAreas at index 0, 2, 4 using add(TextArea, int) function
+
+TextArea id:   id6
+Preferred location: 3, 3
+Size:     3, 3
+Text:   content6
+TextArea id:   id1
+Preferred location: 1, 2
+Size:     3, 4
+Text:   content1
+TextArea id:   id7
+Preferred location: 4, 4
+Size:     4, 4
+Text:   content7
+TextArea id:   id2
+Preferred location: 5, 6
+Size:     7, 8
+Text:   content2
+TextArea id:   id8
+Preferred location: 5, 5
+Size:     5, 5
+Text:   content8
+TextArea id:   id3
+Preferred location: 9, 10
+Size:     11, 12
+Text:   content3
+TextArea id:   id4
+Preferred location: 1, 1
+Size:     1, 1
+Text:   content4
+TextArea id:   id5
+Preferred location: 2, 2
+Size:     2, 2
+Text:   content5
+
+Removing from index 0, 0, 2 using remove(int) function
+
+TextArea id:   id7
+Preferred location: 4, 4
+Size:     4, 4
+Text:   content7
+TextArea id:   id2
+Preferred location: 5, 6
+Size:     7, 8
+Text:   content2
+TextArea id:   id3
+Preferred location: 9, 10
+Size:     11, 12
+Text:   content3
+TextArea id:   id4
+Preferred location: 1, 1
+Size:     1, 1
+Text:   content4
+TextArea id:   id5
+Preferred location: 2, 2
+Size:     2, 2
+Text:   content5
+
+Removing from id 1, 2, 4 using remove(string) function
+
+TextArea id:   id7
+Preferred location: 4, 4
+Size:     4, 4
+Text:   content7
+TextArea id:   id2
+Preferred location: 5, 6
+Size:     7, 8
+Text:   content2
+id4 not found in order
+Error: 1 remaining TextAreas not in order using remove(string) function
+
+free(): double free detected in tcache 2
+
+Program exited with non-zero status, test failed
+
+
+***************************************************************************
+* Mark: 2/10
+***************************************************************************
+
